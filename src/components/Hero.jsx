@@ -29,24 +29,13 @@ function Hero() {
             </div>
           </div>
 
-          {/* Columna Derecha (Imagen / Placeholder) */}
+          {/* Columna Derecha (Imagen Real) */}
           <div className="w-full flex justify-center lg:justify-end">
             <div className="relative w-full max-w-lg aspect-square rounded-3xl overflow-hidden shadow-xl bg-michi-sand border-4 border-white/60 flex items-center justify-center">
               <img
-                src="https://via.placeholder.com/600x600/3E2723/FDFBF7?text=Collar+Michi"
-                alt="Collar artesanal Michi Miradas"
+                src={`${import.meta.env.BASE_URL}img/hero1.jpg`}
+                alt="Collar artesanal de cerámica para mascotas"
                 className="w-full h-full object-cover"
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.style.display = 'none';
-                  e.target.parentElement.innerHTML = `
-                    <div class="flex flex-col items-center justify-center p-8 text-center text-michi-brown-medium font-body">
-                      <span class="text-6xl mb-4">🐾</span>
-                      <p class="font-title text-2xl font-bold text-michi-brown-dark mb-2">Collar Michi Miradas</p>
-                      <p class="text-sm">Cerámica artesanal personalizada</p>
-                    </div>
-                  `;
-                }}
               />
             </div>
           </div>
