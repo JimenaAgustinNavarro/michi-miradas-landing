@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos base globales para la marca */
+@layer base {
+  body {
+    @apply bg-michi-cream text-michi-brown-dark font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-title;
+  }
+}
