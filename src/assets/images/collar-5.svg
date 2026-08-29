@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#F7F0E6"/>
+  <circle cx="300" cy="300" r="180" fill="#A67B5B" opacity="0.95"/>
+  <ellipse cx="240" cy="280" rx="35" ry="50" fill="#3E2723"/>
+  <ellipse cx="360" cy="280" rx="35" ry="50" fill="#3E2723"/>
+  <text x="300" y="520" font-family="'Playfair Display', serif" font-size="28" font-weight="bold" fill="#3E2723" text-anchor="middle">Nala - Bombay</text>
+  <text x="300" y="550" font-family="'Quicksand', sans-serif" font-size="18" fill="#6D4C41" text-anchor="middle">Collar Artesanal Michi Miradas</text>
+</svg>
