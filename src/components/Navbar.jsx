@@ -1,5 +1,4 @@
 import React from 'react';
-import WhatsAppButton from './ui/WhatsAppButton';
 
 function Navbar() {
   return (
@@ -8,13 +7,13 @@ function Navbar() {
         {/* Logo */}
         <a href="#inicio" className="flex items-center gap-2 group">
           <h1 className="text-2xl sm:text-3xl font-title font-bold text-michi-brown-dark tracking-tight">
-            🐱 Michi Miradas
+            Michi Miradas
           </h1>
         </a>
 
         {/* Enlaces internos */}
-        <nav className="hidden md:flex items-center gap-8">
-          <ul className="flex items-center gap-8 font-body font-medium text-michi-brown-dark">
+        <nav className="flex items-center gap-6 sm:gap-8">
+          <ul className="flex items-center gap-6 sm:gap-8 font-body font-medium text-michi-brown-dark text-sm sm:text-base">
             <li>
               <a 
                 href="#inicio" 
@@ -49,13 +48,6 @@ function Navbar() {
             </li>
           </ul>
         </nav>
-
-        {/* Botón CTA */}
-        <div>
-          <WhatsAppButton className="inline-flex items-center justify-center px-5 py-2.5 bg-michi-sand-warm text-white font-body font-medium text-sm rounded-lg shadow-sm hover:bg-michi-hover transition-colors duration-200">
-            Consultar
-          </WhatsAppButton>
-        </div>
       </div>
     </header>
   );
